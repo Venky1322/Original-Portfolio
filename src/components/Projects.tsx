@@ -18,6 +18,7 @@ const Projects = () => {
       title: 'Calculator App',
       description: 'A responsive calculator built using React. Supports keyboard input and custom formulas.',
       image: 'src/Asserts/calc.png',
+      
       technologies: ['React', 'JavaScript', 'HTML', 'CSS'],
       liveUrl: '#',
       githubUrl: '#',
