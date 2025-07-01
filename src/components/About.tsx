@@ -5,12 +5,12 @@ const About = () => {
   const skillsRef = useRef<HTMLDivElement>(null);
 
   const skills = [
-    { name: 'React', level: 85, color: 'from-blue-500 to-cyan-500' },
-    { name: 'TypeScript', level: 80, color: 'from-purple-500 to-pink-500' },
+    { name: 'React', level: 75, color: 'from-blue-500 to-cyan-500' },
+    { name: 'TypeScript', level: 50, color: 'from-purple-500 to-pink-500' },
     { name: 'Node.js', level: 75, color: 'from-green-500 to-teal-500' },
-    { name: 'Python', level: 70, color: 'from-yellow-500 to-orange-500' },
-    { name: 'UI/UX Design', level: 80, color: 'from-pink-500 to-rose-500' },
-    { name: 'SQL', level: 65, color: 'from-indigo-500 to-purple-500' }
+    { name: 'Python', level: 80, color: 'from-yellow-500 to-orange-500' },
+    { name: 'UI/UX Design', level: 60, color: 'from-pink-500 to-rose-500' },
+    { name: 'SQL', level: 45, color: 'from-indigo-500 to-purple-500' }
   ];
 
   const highlights = [
