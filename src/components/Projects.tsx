@@ -1,6 +1,8 @@
 import React from 'react';
 import { ExternalLink, Github, ArrowRight, Star, Users, Calendar } from 'lucide-react';
-
+import calcImg from '../assets/calc.png';
+import landImg from '../assets/land.png';
+import ecommerceImg from '../assets/e-commerce.jpeg';
 const Projects = () => {
   const projects = [
     {
@@ -17,7 +19,7 @@ const Projects = () => {
     {
       title: 'Calculator App',
       description: 'A responsive calculator built using React. Supports keyboard input and custom formulas.',
-      image: 'src/Asserts/calc.png',
+      image: 'calc.png',
       
       technologies: ['React', 'JavaScript', 'HTML', 'CSS'],
       liveUrl: '#',
@@ -29,7 +31,7 @@ const Projects = () => {
     {
       title: 'Landing Page',
       description: 'A modern landing page for a fictional product, featuring animations, responsive design, and a clean UI.',
-      image: '/src/Asserts/land.png',
+      image: 'land.png',
       technologies: ['HTML', 'CSS', 'JavaScript'],
       liveUrl: '#',
       githubUrl: '#',
@@ -40,7 +42,7 @@ const Projects = () => {
     {
       title: 'E-Commerce Website',
       description: 'A frontend e-commerce website with product listing, search, and cart functionality. Built using React and styled with Tailwind CSS.',
-      image: 'src/Asserts/e-commerce.jpeg',
+      image: 'e-commerce.jpeg',
       technologies: ['React', 'Tailwind CSS', 'HTML', 'CSS'],
       liveUrl: '#',
       githubUrl: '#',

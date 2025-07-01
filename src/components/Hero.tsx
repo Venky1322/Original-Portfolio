@@ -1,5 +1,6 @@
 import React from 'react';
 import Tilt from 'react-parallax-tilt';
+import Profile from './assets/ChatGPT Image Jul 1, 2025, 02_53_55 PM.png';
 import {
   ArrowDown,
   Github,
@@ -75,7 +76,7 @@ const Hero = () => {
               <div className="relative w-32 h-32 bg-gradient-to-br from-purple-500 via-blue-500 to-teal-500 rounded-full flex items-center justify-center animate-pulse-glow shadow-2xl">
                 <div className="w-28 h-28 bg-gradient-to-br from-white/20 to-white/5 rounded-full overflow-hidden flex items-center justify-center backdrop-blur-sm">
                   <img
-                    src="src\Asserts\ChatGPT Image Jul 1, 2025, 02_53_55 PM.png"
+                    src="ChatGPT Image Jul 1, 2025, 02_53_55 PM.png"
                     alt="Profile"
                     className="w-full h-full object-cover rounded-full"
                   />
