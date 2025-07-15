@@ -115,7 +115,7 @@ const Hero = () => {
             </button>
 
             <a
-              href="venky_resume_drive.pdf"
+              href="venky_resume_drive.pdf (1).pdf"
               download
               className="group glass-effect text-white px-10 py-4 rounded-2xl font-bold text-lg hover:bg-white/20 transition-all duration-300 shadow-xl hover:shadow-white/10 transform hover:-translate-y-2 hover:scale-105 button-3d border-2 border-white/30 hover:border-white/50"
             >
